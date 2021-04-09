@@ -7,9 +7,8 @@
 Put dataset to hadoop file system
 <code>
 hdfs dfs -mkdir /input
-</code>
-<code>
-  hdfs dfs -put data/retail.dat /input
+<br />
+hdfs dfs -put data/retail.dat /input
 </code>
 
 In root of project build jar file with maven
